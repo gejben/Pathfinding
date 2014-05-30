@@ -1,8 +1,19 @@
-﻿Build started 30/05/2014 23:33:48.
+﻿Build started 31/05/2014 00:45:27.
      1>Project "C:\Users\Gejben\Workspace\Game\PathFinding\PathFinding\PathFinding.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Game.cpp
          Game.cpp
+     1>c:\users\gejben\workspace\game\pathfinding\pathfinding\game.cpp(139): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\gejben\workspace\game\pathfinding\pathfinding\game.cpp(148): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\gejben\workspace\game\pathfinding\pathfinding\game.cpp(149): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\gejben\workspace\game\pathfinding\pathfinding\game.cpp(155): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\gejben\workspace\game\pathfinding\pathfinding\game.cpp(156): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\gejben\workspace\game\pathfinding\pathfinding\game.cpp(161): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\gejben\workspace\game\pathfinding\pathfinding\game.cpp(162): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\gejben\workspace\game\pathfinding\pathfinding\game.cpp(167): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\gejben\workspace\game\pathfinding\pathfinding\game.cpp(168): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\gejben\workspace\game\pathfinding\pathfinding\game.cpp(210): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\gejben\workspace\game\pathfinding\pathfinding\game.cpp(215): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Gejben\Workspace\Game\PathFinding\Debug\PathFinding.exe" /INCREMENTAL /NOLOGO lua5.1.lib d3d9.lib d3dx9.lib dxguid.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Gejben\Workspace\Game\PathFinding\Debug\PathFinding.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Gejben\Workspace\Game\PathFinding\Debug\PathFinding.lib" /MACHINE:X86 Debug\Game.obj
          Debug\Graphics.obj
