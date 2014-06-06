@@ -117,7 +117,7 @@ bool game_init(HWND hWnd) {
 }
 
 static double lengthToGoal(int x, int y){
-	double a = (sqrt(abs(x - goal.x) ^ 2) + sqrt(abs(y - goal.y) ^ 2));
+	double a = (sqrt((x - goal.x)*(x - goal.x)) + sqrt((y - goal.y)*(y - goal.y)));
 	return a;
 }
 
@@ -135,7 +135,7 @@ static void testDirection(double x, double y, shared_ptr<PlayerState> state){
 		newState->player->x = x;
 		newState->player->y = y;
 		newState->parentState = state;
-		newState->g = 0;
+		newState->g = newState->g+1;
 		newState->h = lengthToGoal(x, y);
 		newState->f = newState->g + newState->h;
 		open.push_back(newState);

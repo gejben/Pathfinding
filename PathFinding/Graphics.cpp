@@ -1,7 +1,6 @@
 
 
 #include "Graphics.hpp"
-#include "Vector3.hpp"
 #include "WinMain.hpp"
 #include <d3d9.h>
 #include <d3dx9.h>

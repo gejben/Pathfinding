@@ -84,15 +84,11 @@
   <ItemGroup>
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="Graphics.cpp" />
-    <ClCompile Include="Timer.cpp" />
-    <ClCompile Include="Vector3.cpp" />
     <ClCompile Include="WinMain.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.hpp" />
     <ClInclude Include="Graphics.hpp" />
-    <ClInclude Include="Timer.hpp" />
-    <ClInclude Include="Vector3.hpp" />
     <ClInclude Include="WinMain.hpp" />
   </ItemGroup>
   <ItemGroup>
